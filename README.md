@@ -149,6 +149,7 @@ title: 归档页面
 ```
 [PicGrid]
 ![图片.jpg][1]
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FGod-2077%2Fhexo-theme-puresuck.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FGod-2077%2Fhexo-theme-puresuck?ref=badge_shield)
 [/PicGrid]
 ```
 用 Typecho 默认的插入图片方式即可，用[PicGrid]标签包裹即可完成一个瀑布流的照片展示，适合多张图片展示的场景
@@ -179,3 +180,6 @@ MoxToast({
 
 使用 GPL-3.0 协议开源，欢迎更多人参与二次开发！
 感谢，每一个使用本主题的朋友们！
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FGod-2077%2Fhexo-theme-puresuck.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FGod-2077%2Fhexo-theme-puresuck?ref=badge_large)
