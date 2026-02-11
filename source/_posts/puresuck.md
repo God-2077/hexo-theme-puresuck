@@ -1,6 +1,6 @@
 ---
 title: Hexo-Theme-PureSuck
-
+date: 2025-10-29T12:00:00
 tags:
 ---
 # Hexo-Theme-PureSuck
