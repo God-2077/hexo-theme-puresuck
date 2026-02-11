@@ -64,11 +64,11 @@ showCopyright: true       # 是否显示版权声明
 
 
 comment:
-  enable: false
+  enable: true
   server: twikoo # 评论系统类型
   app:
     twikoo:
-      envId: 'envId' ## 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+      envId:  ## 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
       region: 'ap-guangzhou' ## 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
       path: location.pathname ## 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
       lang: 'zh-CN' ## 用于手动设定评论区语言，支持的语言列表 https://github.com/twikoojs/twikoo/blob/main/src/client/utils/i18n/index.js
@@ -112,3 +112,12 @@ import:
   head_end:
   body_begin:
   body_end:
+    - |
+      <script> document.addEventListener('DOMContentLoaded', function() {
+        MoxNotification({
+            title: "Hexo-theme-puresuck 演示站",
+            message: '欢迎来到 puresuck（hexo) 演示站，<br />Github Rope: <a href="https://github.com/God-2077/hexo-theme-puresuck" target="_blank">hexo-theme-puresuck</a><br />移植自 Typecho 主题 <a href="https://github.com/MoXiaoXi233/PureSuck-theme" target="_blank">PureSuck-theme</a>',
+            duration: 5000,
+          });
+        });
+        </script>

@@ -81,7 +81,7 @@ cdn_system:
   # 调试模式
   debug: true
   # CDN 优先级 从高到低排序 写入 priority 列表即表示启用(enable)，列表为空则表示不启用，优先级 priority > localpath > secondary_url
-  priority: [onmicrosoft_npm,unpkg,jsdelivr_fastly]
+  priority: [unpkg,jsdelivr_fastly,onmicrosoft_npm]
   # 检查cdn链接有效性，默认true，如果链接失效，将根据priority选择其他链接
   # 为什么要检查cdn链接有效性？
   # 因为cdn链接失效时，有些cdn链接可能会返回404
